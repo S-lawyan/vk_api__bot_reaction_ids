@@ -1,5 +1,5 @@
 # vk_api__bot_reaction_ids
-There is no information on the correspondence of integer values of emoji reaction IDs on the official documentation page. This repository provides a list obtained experimentally. The experiment code is shown below.
+There is no information on the correspondence of integer values of emoji reaction IDs on the [official documentation page](https://dev.vk.com/ru/method/messages.sendReaction). This repository provides a list obtained experimentally. The experiment code is shown below.
 P.S. 
 
 | reaction_id | emoji |
@@ -47,3 +47,5 @@ if __name__ == "__main__":
     bot.run_forever()
 
 ```
+
+vkbottle reaction_id reaction_ids send_reaction vk api
